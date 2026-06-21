@@ -1,20 +1,26 @@
 export const certificates = [
   {
-    name: 'AWS Certified Cloud Practitioner',
-    issuer: 'Amazon Web Services',
-    year: 2022,
-    color: 'var(--yellow)',
-  },
-  {
-    name: 'Backend Development Professional',
-    issuer: 'Platzi · Node.js + Bases de datos',
-    year: 2023,
+    name: 'Full Stack Web Development',
+    issuer: 'ACADEMLO',
+    year: '',
     color: 'var(--accent)',
   },
   {
-    name: 'Docker & Kubernetes Foundations',
-    issuer: 'Udemy · Contenedores y orquestación',
-    year: 2023,
+    name: 'Manejo De Pruebas De Software',
+    issuer: 'SENA',
+    year: '',
     color: 'var(--green)',
+  },
+  {
+    name: 'Ciencia de datos con Python',
+    issuer: 'Alura Latam',
+    year: '',
+    color: 'var(--yellow)',
+  },
+  {
+    name: 'Técnico laboral en recursos humanos',
+    issuer: 'Instituto IE',
+    year: '',
+    color: 'var(--accent2)',
   },
 ]

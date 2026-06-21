@@ -8,6 +8,8 @@ export const explorerData = [
     defaultOpen: true,
     files: [
       { id: 'about', label: 'README', ext: 'md', icon: FileText, iconColor: '#519ABA' },
+      { id: 'skills', label: 'skills', ext: 'js', icon: FileCode, iconColor: '#D7BA7D' },
+      { id: 'softskills', label: 'soft-skills', ext: 'js', icon: FileCode, iconColor: '#D7BA7D' },
     ],
   },
   {
@@ -17,8 +19,9 @@ export const explorerData = [
     defaultOpen: false,
     files: [
       { id: 'projects', label: 'index', ext: 'js', icon: FileCode, iconColor: '#D7BA7D' },
-      { id: 'project-api', label: 'api-rest', ext: 'py', icon: FileCode, iconColor: '#FFD700' },
-      { id: 'project-infra', label: 'infra-docker', ext: 'sh', icon: Terminal, iconColor: '#3FB950' },
+      { id: 'softcamp', label: 'softcamp', ext: 'js', icon: FileCode, iconColor: '#FFD700' },
+      { id: 'biblia-multiplatform', label: 'biblia-multiplatform', ext: 'py', icon: FileCode, iconColor: '#FFD700' },
+      { id: 'devmatch-ai', label: 'devmatch-ai', ext: 'py', icon: FileCode, iconColor: '#FFD700' },
     ],
   },
   {

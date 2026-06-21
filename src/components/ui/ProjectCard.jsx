@@ -2,10 +2,15 @@ import { Code, Database, Cloud, Eye, ExternalLink } from 'lucide-react'
 import { usePortfolio } from '../../context/PortfolioContext'
 
 const iconMap = { Code, Database, Cloud }
+const extMap = {
+  softcamp: 'js',
+  'biblia-multiplatform': 'py',
+  'devmatch-ai': 'py',
+}
 
 export default function ProjectCard({ project }) {
   const { openTab } = usePortfolio()
-  const Icon = iconMap[project.icon]
+  const Icon = iconMap[project.icon] || Code
   const badgeColor = project.badge.type === 'active' ? 'var(--green)' : 'var(--yellow)'
 
   return (
@@ -69,8 +74,8 @@ export default function ProjectCard({ project }) {
             onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.color = '#fff' }}
             onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = 'var(--accent)' }}
             onClick={() => {
-              const file = { id: project.detailId, label: project.detailId.replace('project-', ''), ext: project.detailId === 'project-api' ? 'py' : 'sh' }
-              openTab(file.id, file.label, file.ext)
+              const ext = extMap[project.detailId] || 'js'
+              openTab(project.detailId, project.detailId, ext)
             }}
           >
             <Eye size={12} />

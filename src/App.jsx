@@ -5,19 +5,25 @@ import Tabs from './components/layout/Tabs'
 import StatusBar from './components/layout/StatusBar'
 import ChatPanel from './components/chat/ChatPanel'
 import AboutPage from './components/pages/AboutPage'
+import SkillsPage from './components/pages/SkillsPage'
+import SkillsSoftPage from './components/pages/SkillsSoftPage'
 import ContactPage from './components/pages/ContactPage'
 import ProjectsPage from './components/pages/ProjectsPage'
-import ProjectApiPage from './components/pages/ProjectApiPage'
-import ProjectInfraPage from './components/pages/ProjectInfraPage'
+import SoftCampPage from './components/pages/SoftCampPage'
+import BibliaMultiplatformPage from './components/pages/BibliaMultiplatformPage'
+import DevMatchAIPage from './components/pages/DevMatchAIPage'
 import EducationPage from './components/pages/EducationPage'
 import EduCertsPage from './components/pages/EduCertsPage'
 
 const pages = {
   about: AboutPage,
+  skills: SkillsPage,
+  softskills: SkillsSoftPage,
   contact: ContactPage,
   projects: ProjectsPage,
-  'project-api': ProjectApiPage,
-  'project-infra': ProjectInfraPage,
+  softcamp: SoftCampPage,
+  'biblia-multiplatform': BibliaMultiplatformPage,
+  'devmatch-ai': DevMatchAIPage,
   education: EducationPage,
   'edu-certs': EduCertsPage,
 }

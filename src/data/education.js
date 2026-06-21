@@ -1,20 +1,26 @@
 export const education = [
   {
-    year: '2020 – 2024',
-    title: 'Ingeniería de Sistemas',
-    institution: 'Universidad de Cartagena · Cartagena, Colombia',
-    type: 'Pregrado',
+    year: '',
+    title: 'Full Stack Web Development',
+    institution: 'ACADEMLO · Bootcamp',
+    type: 'Bootcamp',
   },
   {
-    year: '2023',
-    title: 'Desarrollo Backend con Node.js',
-    institution: 'Platzi · Online',
-    type: 'Curso especializado',
-  },
-  {
-    year: '2022',
-    title: 'Fundamentos de Cloud AWS',
-    institution: 'Amazon Web Services · Online',
+    year: '',
+    title: 'Manejo De Pruebas De Software',
+    institution: 'SENA · Certificación',
     type: 'Certificación',
+  },
+  {
+    year: '',
+    title: 'Ciencia de datos con Python',
+    institution: 'Alura Latam · Curso',
+    type: 'Curso',
+  },
+  {
+    year: '',
+    title: 'Técnico laboral en recursos humanos',
+    institution: 'Instituto IE · Técnico Laboral',
+    type: 'Técnico Laboral',
   },
 ]

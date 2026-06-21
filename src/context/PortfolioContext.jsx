@@ -7,14 +7,21 @@ const PortfolioContext = createContext()
 const defaultTabs = { about: { name: 'README', ext: 'md' } }
 
 const aiReplies = {
-  node: 'Pedro tiene experiencia sólida con Node.js y Express para construir APIs REST escalables.',
-  python: 'Usa Python con FastAPI para microservicios, con validación de datos vía Pydantic.',
-  docker: 'Tiene experiencia con Docker y Docker Compose para contenedores, y fundamentos de Kubernetes.',
-  proyecto: 'Pedro tiene 3 proyectos principales: una API REST, un sistema de microservicios y una CLI de automatización.',
-  disponible: 'Sí, Pedro está disponible para oportunidades remote o híbridas actualmente.',
-  experiencia: 'Desarrollador backend con experiencia en APIs, microservicios, bases de datos relacionales y NoSQL.',
-  cartagena: 'Pedro está basado en Cartagena, Colombia y abierto a trabajo remoto internacional.',
+  node: 'Pedro tiene experiencia con Node.js y Express para construir APIs REST y aplicaciones web full stack.',
+  python: 'Usa Python con FastAPI para microservicios y análisis de datos. También tiene conocimientos en ciencia de datos con Python.',
+  react: 'Pedro tiene experiencia sólida con React, React-Bootstrap y Tailwind CSS para crear interfaces modernas y responsivas.',
+  softcamp: 'SoftCamp es su proyecto principal: un sistema multiplataforma para gestión agrícola integrado con IA, usando React, Node.js y PostgreSQL.',
+  biblia: 'Biblia Multiplatform es un sistema para estudio bíblico en iglesias, desarrollado con Dart/Flutter y Python.',
+  devmatch: 'DevMatch AI es una plataforma de reclutamiento con IA que automatiza procesos de selección y matching de talento.',
+  ecommerce: 'Tiene un proyecto de e-commerce desarrollado con React, React-Bootstrap, Node.js y PostgreSQL.',
+  disponible: 'Sí, Pedro está disponible para oportunidades laborales, colaboraciones y proyectos.',
+  experiencia: 'Desarrollador full stack con proyectos en JavaScript, React, Node.js, Python y bases de datos relacionales.',
+  colombia: 'Pedro está basado en Colombia y abierto a trabajo remoto.',
   salario: 'Para discutir compensación, te recomiendo contactar directamente a Pedro.',
+  academlo: 'Pedro estudió Full Stack Web Development en ACADEMLO, un bootcamp intensivo.',
+  sena: 'Pedro tiene certificación del SENA en Manejo de Pruebas de Software.',
+  alura: 'Pedro estudió Ciencia de datos con Python en Alura Latam.',
+  ingles: 'Pedro tiene nivel básico de inglés y español nativo.',
   default: 'Soy Daniel, el asistente de Pedro. Te recomiendo revisar las secciones del portafolio o contactar directamente a Pedro para más detalles.',
 }
 

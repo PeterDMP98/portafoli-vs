@@ -2,21 +2,31 @@ export const softSkills = [
   {
     emoji: '🧩',
     title: 'Resolución de problemas',
-    desc: 'Enfoque analítico para descomponer problemas complejos en soluciones implementables.',
+    desc: 'Análisis y solución creativa de problemas complejos, descomponiendo retos en soluciones implementables.',
   },
   {
     emoji: '🤝',
     title: 'Trabajo en equipo',
-    desc: 'Comunicación efectiva en equipos ágiles, colaboración y revisión de código.',
+    desc: 'Colaboración efectiva en equipos multidisciplinarios con comunicación asertiva y revisión de código.',
   },
   {
     emoji: '📚',
-    title: 'Aprendizaje continuo',
-    desc: 'Actualización constante en nuevas tecnologías, patrones y mejores prácticas.',
+    title: 'Aprendizaje autónomo',
+    desc: 'Capacidad de aprender nuevas tecnologías de forma independiente y aplicarlas rápidamente en proyectos.',
   },
   {
     emoji: '⏱️',
-    title: 'Gestión del tiempo',
-    desc: 'Priorización de tareas, cumplimiento de plazos y manejo de múltiples proyectos.',
+    title: 'Responsabilidad',
+    desc: 'Compromiso y cumplimiento de objetivos establecidos, con enfoque en calidad y buenas prácticas.',
+  },
+  {
+    emoji: '🔄',
+    title: 'Adaptabilidad',
+    desc: 'Rápida adaptación a nuevas tecnologías, metodologías ágiles y entornos cambiantes.',
+  },
+  {
+    emoji: '💬',
+    title: 'Comunicación asertiva',
+    desc: 'Comunicación clara y efectiva con equipos técnicos y no técnicos para alinear objetivos.',
   },
 ]

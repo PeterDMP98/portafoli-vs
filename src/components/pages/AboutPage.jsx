@@ -1,11 +1,11 @@
-import { Mail, Globe, Code2, Server, Database, Cloud, Users, Puzzle, BookOpen, Clock } from 'lucide-react'
+import { Mail, Globe, Code2, Server, Database, Cloud, Cpu, Puzzle, Users, BookOpen, Clock, Phone, MapPin } from 'lucide-react'
 import { usePortfolio } from '../../context/PortfolioContext'
 import { skillGroups } from '../../data/skills'
 import { softSkills } from '../../data/softSkills'
 import Badge from '../ui/Badge'
 
-const groupIcons = { Server, Database, Cloud }
-const softIcons = [Puzzle, Users, BookOpen, Clock]
+const groupIcons = { Server, Database, Cloud, Globe, Cpu }
+const softIcons = [Puzzle, Users, BookOpen, Clock, Mail, Globe]
 
 export default function AboutPage() {
   const { t } = usePortfolio()
@@ -26,7 +26,7 @@ export default function AboutPage() {
             PLC
           </div>
         </div>
-        <div >
+        <div>
           <h1 className="text-[22px] font-semibold mb-1" style={{ color: 'var(--text1)' }}>
             {t('about.name')}
           </h1>
@@ -36,19 +36,13 @@ export default function AboutPage() {
           <p className="text-sm max-w-130" style={{ color: 'var(--text2)', lineHeight: '1.8' }}>
             {t('about.desc')}
           </p>
-          <div className="flex gap-3 flex-wrap ">
+          <div className="flex gap-3 flex-wrap mt-3">
             <Badge borderColor="var(--accent)" color="var(--accent2)" >{t('about.badge.available')}</Badge>
             <Badge borderColor="var(--green)" color="var(--green)">{t('about.badge.remote')}</Badge>
             <Badge>{t('about.badge.country')}</Badge>
           </div>
         </div>
       </div>
-
-      {/* About */}
-      <div className="section-label ">{t('about.aboutSection')}</div>
-        <p className="text-sm" style={{ color: 'var(--text2)', maxWidth: '600px', lineHeight: '1.8', marginBottom: '32px' }}>
-          {t('about.aboutDesc')}
-        </p>
 
       {/* Skills */}
       <div className="section-label">Stack técnico</div>
@@ -149,8 +143,8 @@ export default function AboutPage() {
       {/* Quick Contact */}
       <div className="section-label">{t('about.contactSection')}</div>
       <div className="flex gap-[10px] flex-wrap">
-        <QuickLink href="https://linkedin.com/in/tu-perfil" icon={<Globe size={14} style={{ color: 'var(--accent)' }} />} label="LinkedIn" />
-        <QuickLink href="https://github.com/tu-usuario" icon={<Code2 size={14} />} label="GitHub" />
+        <QuickLink href="https://www.linkedin.com/in/pedro-luis-caraballo-banquez-5b1119b0/" icon={<Globe size={14} style={{ color: 'var(--accent)' }} />} label="LinkedIn" />
+        <QuickLink href="https://github.com/PeterDMP98" icon={<Code2 size={14} />} label="GitHub" />
       </div>
     </div>
   )
